@@ -41,7 +41,7 @@ app.get("/cookie",(req,res)=>{
     .cookie("firstCookie","1234566",options)
     .cookie("secondCookie","gdfgdgdf",options)
     .json({
-        message:"success"
+        message:"success cookies sent"
     })
 
 
